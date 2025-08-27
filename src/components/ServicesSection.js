@@ -102,7 +102,6 @@ const ServicesSection = () => {
           </div>
         </div>
       </div>
-      <SubscriptionPlans />
       <PopularServiceCategories />
       <HowEventConnectWorks />
       <RecentEventRequests />
