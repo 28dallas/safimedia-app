@@ -1,4 +1,8 @@
 import React from 'react';
+import SubscriptionPlans from './SubscriptionPlans';
+import HowEventConnectWorks from './HowEventConnectWorks';
+import RecentEventRequests from './RecentEventRequests';
+import PopularServiceCategories from './PopularServiceCategories';
 
 const ServicesSection = () => {
   const services = [
@@ -98,8 +102,13 @@ const ServicesSection = () => {
           </div>
         </div>
       </div>
+      <SubscriptionPlans />
+      <PopularServiceCategories />
+      <HowEventConnectWorks />
+      <RecentEventRequests />
     </section>
   );
 };
 
 export default ServicesSection;
+

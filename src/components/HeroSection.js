@@ -22,7 +22,7 @@ const HeroSection = () => {
                 Find Professionals
               </button>
               <button className="btn-secondary text-lg px-8 py-4">
-                Learn More
+                + Post Your Event
               </button>
             </div>
 
